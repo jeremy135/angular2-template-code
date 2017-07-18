@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 
-@Componant({
+@Component({
   selector: 'comp-sel',
   templateUrl: './.html',
-  stylesUrl: ['./scss/']
+  styleUrls: ['./scss/']
 })
 
 export class Comp {
