@@ -1,9 +1,13 @@
 
 import { NgMOdule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  imports: [],
+  imports: [
+    CommonModule,
+    FormsModule
+  ],
   declarations: [],
   entryComponents: [],
   schemas: [],
