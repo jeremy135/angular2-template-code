@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'comp-sel',
-  templateUrl: './.html',
-  styleUrls: ['./scss/']
+  templateUrl: './component.html',
+  styleUrls: ['./scss/.scss']
 })
 
-export class Comp {
+export class Component {
   constructor() {
   }
 }
