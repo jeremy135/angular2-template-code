@@ -13,5 +13,4 @@ import { FormsModule } from '@angular/forms';
   schemas: [],
   exports: []
 })
-
 export class Module {}
