@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './component.html',
   styleUrls: ['./scss/.scss']
 })
-
 export class Component {
   constructor() {
   }
