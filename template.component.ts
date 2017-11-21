@@ -8,7 +8,7 @@ import { Component, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/
   selector: 'comp-sel',
   templateUrl: './component.html',
   styleUrls: ['./scss/.scss'],
-  changeDetection: ChangeDetectionStrategy.onPush,
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class Component {
   constructor() {
